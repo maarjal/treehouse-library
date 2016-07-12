@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-left {
+  float: left;
+  width: 5%;
+  height: 100vh;
+  background-color: #3e474f;
+}
+
+.navbar-left img {
+  position: fixed;
+  top: 0;
+  left: 1%;
+}
+
+.wrap-c {
+  width: 85%;
+  height: 100vh;
+  float: right;
+  margin-right: 5%;
+}
+
+.nav-c {
+  background-color: $css-color;
+}
+
+.content-c{
+  position: relative;
+  text-align: center;
+  background-color: darken($css-color, 10%);
+  height: 40%;
+  & h3 {
+    margin: 0;
+    color: white;
+  }
+  & h5 {
+    color: lighten($css-color, 10%);
+  }
+}
+
+.content-title {
+@include totally-centered;
+}
+
+.resume-button {
+  background-color: $grey;
+  color: darken($css-color, 10%);
+}
+
+.content-body {
+  height: 500px;
+  background-color: white;
+}
+
+.css {
+  @include buttonMaker ($pill-radius, $css-color, $padding:10px);
+}

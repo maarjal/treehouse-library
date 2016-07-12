@@ -12,6 +12,38 @@
   transform: translateY(-50%)
 }
 
+@mixin totally-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin buttonMaker ($border-radius, $color:null, $padding:null) {
+  border: 2px solid $text-color;
+  font-size: 12px;
+  position: relative;
+  border-radius: $border-radius;
+  color: $color;
+  padding: $padding;
+}
+
+//navbar
+
+@mixin navbar {
+    height: 65px;
+    margin-bottom: 15px;
+    padding: 0 10px 0 8px;
+    box-shadow: 0 3px .01px $hr-color;
+}
+
+@mixin navbar-right {
+  float: right;
+  margin-top: 5px;
+  position: relative;
+}
+
 @mixin hr {
   background-color:$hr-color;
    -webkit-transform:rotate(90deg);

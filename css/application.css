@@ -74,8 +74,7 @@ li {
 
 .button {
   margin-top: 50px;
-  height: 50px;
-  position: relative; }
+  height: 50px; }
 
 .icon-buttons {
   height: 30px;
@@ -89,8 +88,9 @@ li {
 
 .button span {
   border: 2px solid #7b8b8e;
-  border-radius: 50%;
-  font-size: 12px; }
+  font-size: 12px;
+  position: relative;
+  border-radius: 50%; }
   .button span.java {
     color: #2c9676; }
   .button span.python {
@@ -157,5 +157,63 @@ li {
   display: block;
   float: right;
   margin-top: 15px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.navbar-left {
+  float: left;
+  width: 5%;
+  height: 100vh;
+  background-color: #3e474f; }
+
+.navbar-left img {
+  position: fixed;
+  top: 0;
+  left: 1%; }
+
+.wrap-c {
+  width: 85%;
+  height: 100vh;
+  float: right;
+  margin-right: 5%; }
+
+.nav-c {
+  background-color: #3079AB; }
+
+.content-c {
+  position: relative;
+  text-align: center;
+  background-color: #255d83;
+  height: 40%; }
+  .content-c h3 {
+    margin: 0;
+    color: white; }
+  .content-c h5 {
+    color: #4494ca; }
+
+.content-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+
+.resume-button {
+  background-color: #edeff0;
+  color: #255d83; }
+
+.content-body {
+  height: 500px;
+  background-color: white; }
+
+.css {
+  border: 2px solid #7b8b8e;
+  font-size: 12px;
+  position: relative;
+  border-radius: 25px;
+  color: #3079AB;
+  padding: 10px; }
 
 /*# sourceMappingURL=application.css.map */
