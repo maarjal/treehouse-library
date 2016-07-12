@@ -46,9 +46,7 @@ li {
   background-color: white;
   box-shadow: 0 2px 0 #bfc7ce;
   float: left;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-bottom: 30px; }
+  margin: 0 15px 30px 15px; }
 
 .nav {
   height: 50px;
@@ -62,12 +60,6 @@ li {
 
 .purple {
   background-color: #838cc7; }
-
-.python {
-  color: #f092b0; }
-
-.wp {
-  color: #838cc7; }
 
 .nav-bar {
   height: 65px;
@@ -86,15 +78,11 @@ li {
   position: relative; }
 
 .icon-buttons {
-  display: inline-block;
   height: 30px;
   width: 30px;
   float: right;
   padding: 6px;
-  margin-bottom: 50px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
+  margin-bottom: 50px; }
 
 #star {
   margin-left: 8px; }
@@ -103,18 +91,20 @@ li {
   border: 2px solid #7b8b8e;
   border-radius: 50%;
   font-size: 12px; }
-
-.java {
-  color: #2c9676; }
-
-.level {
-  color: #7b8b8e; }
+  .button span.java {
+    color: #2c9676; }
+  .button span.python {
+    color: #f092b0; }
+  .button span.wp {
+    color: #838cc7; }
+  .button span.level {
+    color: #7b8b8e; }
 
 .button .word {
   border-radius: 25px;
   padding: 10px; }
 
-.word {
+.word, .icon-buttons {
   display: inline-block;
   position: relative;
   top: 50%;
@@ -155,17 +145,17 @@ li {
   float: left; }
 
 .circle {
-  color: rgba(255, 255, 255, 0.5);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
+  color: rgba(255, 255, 255, 0.5);
   float: left;
   margin-top: 15px; }
 
 .length {
-  display: block;
   font-weight: bold;
+  color: white;
+  display: block;
   float: right;
-  margin-top: 15px;
-  color: white; }
+  margin-top: 15px; }
 
 /*# sourceMappingURL=application.css.map */

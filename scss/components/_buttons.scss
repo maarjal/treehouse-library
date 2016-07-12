@@ -5,15 +5,11 @@
 }
 
 .icon-buttons {
-  display: inline-block;
   height: 30px;
   width: 30px;
   float: right;
   padding: 6px;
   margin-bottom: 50px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 #star {
@@ -22,26 +18,19 @@
 
 .button span {
   border: 2px solid $text-color;
-  border-radius: 50%;
+  border-radius: $circle-radius;
   font-size: 12px;
-}
-
-.java {
-  color: $java-color;
-}
-
-.level {
-  color: $text-color;
+  &.java {color: $java-color;}
+  &.python {color: $python-color;}
+  &.wp {color: $wordpress-color;}
+  &.level {color: $text-color;}
 }
 
 .button .word {
-  border-radius: 25px;
+  border-radius: $pill-radius;
   padding: 10px;
 }
 
-.word {
-  display: inline-block;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.word, .icon-buttons {
+@include verticle-center;
 }

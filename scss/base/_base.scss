@@ -1,6 +1,6 @@
 body {
   background-color: $main-background-color;
-  font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+  font-family: $stack-arial;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h5, p {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $stack-sans-serif;
 }
 
 h5 {

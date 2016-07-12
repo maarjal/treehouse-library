@@ -1,0 +1,22 @@
+@mixin fontface($family:null, $size:null, $weight:null, $color:null) {
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin verticle-center {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+@mixin hr {
+  background-color:$hr-color;
+   -webkit-transform:rotate(90deg);
+   position:absolute;
+   top: 16px;
+   width:30px;
+   height:2px;
+}
