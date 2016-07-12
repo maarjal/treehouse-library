@@ -21,17 +21,17 @@
 }
 
 .button span {
-  border: 2px solid #eaedef;
+  border: 2px solid $text-color;
   border-radius: 50%;
   font-size: 12px;
 }
 
 .java {
-  color: #2c9676;
+  color: $java-color;
 }
 
 .level {
-  color: #7b8b8e;
+  color: $text-color;
 }
 
 .button .word {

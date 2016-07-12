@@ -1,5 +1,5 @@
 body {
-  background-color: #edeff0;
+  background-color: $main-background-color;
   font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
 }
 
@@ -7,11 +7,11 @@ h1 {
   font-size: 20px;
   vertical-align: middle;
   padding-top: 10px;
-  color: #3e464c;
+  color: $title-color;
 }
 
 h5, p {
-  color: #7b8b8e;
+  color: $text-color;
 }
 
 p {
@@ -23,13 +23,13 @@ h5 {
 }
 
 h3 {
-  color: #545e60;
+  color: $heading-color;
   margin-top: 5px;
 }
 
 ul {
   list-style: none;
-  color: white;
+  color: $white;
 }
 
 li {
